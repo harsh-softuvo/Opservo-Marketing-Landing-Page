@@ -16,7 +16,7 @@ Opservo is positioned as *"the AI ops engineer for teams without an SRE"* — bu
 - **Colors:** Dark navy hero (`#0F172A`), white content sections, accent blue (`#2563EB`)
 - **Typography:** Inter
 - **Cards:** 16px rounded corners, soft shadows
-- **Layout:** Fully responsive (desktop + mobile)
+- **Layout:** Fully responsive (desktop)
 
 ## 📄 Sections
 
