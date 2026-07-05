@@ -36,7 +36,6 @@ Opservo is positioned as *"the AI ops engineer for teams without an SRE"* — bu
 
 - **Initial generation:** [Open Design AI](https://opendesign.ai) — from a single detailed prompt covering design direction, sections, and copy
 - **Manual refinement:** Fixed broken image paths, wired up button interactivity, and added a Contact section (not part of the original AI generation)
-- Full process, prompt used, and design decisions are documented in [`DESIGN-HANDOFF.md`](./DESIGN-HANDOFF.md)
 
 ## 📁 Files
 
