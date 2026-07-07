@@ -1,0 +1,319 @@
+Design an award-winning, visually stunning, modern SaaS marketing landing page for "Opservo", an AI-powered Infrastructure Operations platform.
+
+Do NOT generate a generic template.
+
+The design should look comparable to Stripe, Linear, Vercel, Datadog, Framer, Notion, and Apple's website.
+
+The website must feel premium, futuristic, enterprise-grade, and highly creative while maintaining excellent usability.
+
+Target Audience:
+• CTOs
+• DevOps Engineers
+• Platform Engineers
+• Startup Founders
+• Enterprises managing Linux infrastructure
+
+Color Palette:
+• Dark Navy (#0F172A)
+• Deep Blue (#2563EB)
+• Electric Blue highlights
+• White sections
+• Soft gradients
+• Glassmorphism effects
+• Glow lighting
+
+Typography:
+Inter / General Sans
+
+Layout Requirements:
+
+========================
+HERO SECTION
+========================
+
+Create a cinematic hero section.
+
+Instead of a simple image, design a large futuristic AI Infrastructure Dashboard.
+
+The dashboard should include:
+
+• Live server cards
+• CPU Usage
+• RAM Usage
+• Network Graphs
+• AI Assistant panel
+• Linux servers
+• Docker containers
+• Infrastructure Map
+• Cloud nodes
+• Security alerts
+• Floating analytics widgets
+• Animated glowing connection lines
+
+Background should contain:
+
+• Gradient mesh
+• Floating particles
+• Blurred glowing circles
+• Abstract cloud graphics
+
+Hero text:
+
+The AI Ops Engineer
+for Teams Without an SRE
+
+Subtitle:
+
+Know what is running.
+Know what is broken.
+Know what to fix —
+and let AI fix it.
+
+CTA
+
+Get Started Free
+
+Book a Demo
+
+========================
+TRUST SECTION
+========================
+
+Create a trust strip showing
+
+99.99% Uptime
+
+500+ Servers Monitored
+
+40% Faster Resolution
+
+24/7 AI Monitoring
+
+========================
+HOW IT WORKS
+========================
+
+Instead of three plain cards,
+
+Create a beautiful animated timeline.
+
+Install
+
+↓
+
+Monitor
+
+↓
+
+AI Analysis
+
+↓
+
+Auto Fix
+
+Each step should contain icons and illustrations.
+
+========================
+PRODUCT SHOWCASE
+========================
+
+Create alternating sections.
+
+Left:
+Large Dashboard Screenshot
+
+Right:
+Feature explanation
+
+Alternate every section.
+
+Features:
+
+Systems View
+
+Inventory
+
+Automate
+
+Ask AI
+
+Each section should have its own unique illustration.
+
+========================
+AI ASSISTANT SECTION
+========================
+
+Create an AI Chat Interface.
+
+Show
+
+User:
+
+Which server has highest CPU?
+
+AI:
+
+Server-03
+CPU 94%
+
+Suggested Fix
+
+Restart Docker Container
+
+Generate Code
+
+View Logs
+
+========================
+DASHBOARD SECTION
+========================
+
+Large interactive dashboard mockup.
+
+Cards
+
+Server Health
+
+AI Alerts
+
+Network Map
+
+Containers
+
+Automation
+
+========================
+COMPARISON
+========================
+
+Do NOT create a boring table.
+
+Instead create three premium comparison cards.
+
+Traditional Monitoring
+
+Hiring an SRE
+
+Opservo
+
+Use green ticks
+
+Red crosses
+
+Icons
+
+Pricing style layout.
+
+========================
+BENEFITS
+========================
+
+Six beautiful glass cards.
+
+AI Monitoring
+
+Cloud Analytics
+
+Automation
+
+Inventory
+
+Security
+
+Natural Language AI
+
+========================
+PRICING
+========================
+
+Premium pricing cards.
+
+One card highlighted.
+
+Popular badge.
+
+Gradient border.
+
+Animated buttons.
+
+========================
+FINAL CTA
+========================
+
+Large gradient background.
+
+Huge headline.
+
+Animated buttons.
+
+Floating glowing graphics.
+
+========================
+FOOTER
+========================
+
+Professional multi-column footer.
+
+Documentation
+
+Resources
+
+Company
+
+GitHub
+
+LinkedIn
+
+Privacy
+
+Terms
+
+Contact
+
+========================
+ANIMATIONS
+========================
+
+Smooth scrolling
+
+Fade-in
+
+Slide-up
+
+Hover lift
+
+Glow hover
+
+Button ripple
+
+Floating dashboard cards
+
+========================
+DESIGN STYLE
+========================
+
+Avoid template appearance.
+
+Avoid plain white sections.
+
+Create different background styles for every section.
+
+Use SVG illustrations.
+
+Use beautiful icons.
+
+Use asymmetric layouts.
+
+Use curved separators between sections.
+
+Use premium spacing.
+
+Create visual storytelling.
+
+Every section should feel different.
+
+Make the design memorable.
+
+Overall quality should look like a website that won an Awwwards or CSS Design Awards.
+
+Generate production-ready HTML, CSS, JavaScript and make it fully responsive.
