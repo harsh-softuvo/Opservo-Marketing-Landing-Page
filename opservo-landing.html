@@ -7,12 +7,11 @@
 <style>
 /* ==== Tech / Utility direction palette ==== */
 :root {
-  --bg:        #ffffff;                     /* surface */
-  --bg-dark:   #0F172A;                     /* dark navy */
+  --bg:        #ffffff;
+  --bg-dark:   #0F172A;
   --bg-dark2:  #0B1223;
-  --primary:   #2563EB;                     /* deep blue */
-  --accent:    #38BDF8;                     /* electric blue */
-  --violet:    #7C6CF6;                     /* secondary accent for mesh */
+  --primary:   #2563EB;
+  --accent:    #38BDF8;
   --fg:        #1c1b1a;
   --muted:     #6b6964;
   --glass-bg:  rgba(255,255,255,0.12);
@@ -85,7 +84,7 @@ h1,h2,h3 { line-height:1.2; }
 #hero .bg-canvas {
   position:absolute; inset:0;
   background:radial-gradient(circle at 15% 25%, rgba(37,99,235,.55) 0%, transparent 42%),
-             radial-gradient(circle at 85% 20%, rgba(124,108,246,.4) 0%, transparent 45%),
+             radial-gradient(circle at 85% 20%, rgba(37,99,235,.4) 0%, transparent 45%),
              radial-gradient(circle at 50% 90%, rgba(56,189,248,.3) 0%, transparent 45%);
   filter:blur(70px);
 }
@@ -245,7 +244,7 @@ h1,h2,h3 { line-height:1.2; }
 #dashboard .card h4 { margin-bottom:.5rem; font-size:1rem; }
 #dashboard .card p { color:rgba(255,255,255,.65); font-size:.9rem; }
  
-/* ==== COMPARISON (ENHANCED) ==== */
+/* ==== COMPARISON (FIXED - Brief compliant) ==== */
 #compare { 
   background:linear-gradient(180deg, #f8fafc, #ffffff);
   padding:6rem 2rem;
@@ -280,7 +279,7 @@ h1,h2,h3 { line-height:1.2; }
   background:linear-gradient(90deg,#e2e8f0,#94a3b8);
 }
 #compare .card.highlight .top-bar {
-  background:linear-gradient(90deg,var(--primary),var(--accent),var(--violet));
+  background:linear-gradient(90deg,var(--primary),var(--accent));
 }
 #compare .card .icon-wrap {
   width:70px;
@@ -517,7 +516,7 @@ h1,h2,h3 { line-height:1.2; }
 #final-cta .bg-glow {
   position:absolute; inset:0;
   background:radial-gradient(circle at 30% 30%, rgba(56,189,248,.4), transparent 60%),
-             radial-gradient(circle at 70% 70%, rgba(124,108,246,.35), transparent 65%);
+             radial-gradient(circle at 70% 70%, rgba(37,99,235,.35), transparent 65%);
   filter:blur(120px);
 }
  
@@ -579,7 +578,7 @@ footer a:hover { color:#fff; }
       <h1>The AI Ops Engineer<br>for Teams Without an SRE</h1>
       <p>Know what is running.<br>Know what is broken.<br>Know what to fix — and let AI fix it.</p>
       <a href="#pricing" class="btn btn-primary" style="margin-right:.5rem;">Get Started Free</a>
-      <a href="#final-cta" class="btn btn-ghost">Book a Demo</a>
+      <a href="#showcase" class="btn btn-ghost">See How It Works</a>
     </div>
     <div class="dashboard glass" data-fade aria-hidden="true">
       <div class="bar"><span></span><span></span><span></span></div>
@@ -664,9 +663,8 @@ footer a:hover { color:#fff; }
           <rect x="20" y="30" width="280" height="180" rx="12" fill="#e0e7ff"/>
           <circle cx="90" cy="90" r="26" fill="#2563EB"/>
           <circle cx="220" cy="70" r="18" fill="#38BDF8"/>
-          <circle cx="230" cy="150" r="22" fill="#7C6CF6"/>
           <circle cx="120" cy="170" r="14" fill="#2563EB" opacity=".6"/>
-          <path d="M90 90 L220 70 M90 90 L230 150 M120 170 L90 90 M220 70 L230 150" stroke="#2563EB" stroke-width="2" opacity=".5"/>
+          <path d="M90 90 L220 70 M90 90 L120 170 M120 170 L90 90" stroke="#2563EB" stroke-width="2" opacity=".5"/>
         </svg>
       </div>
       <div class="text">
@@ -679,7 +677,7 @@ footer a:hover { color:#fff; }
         <svg viewBox="0 0 320 240" fill="none">
           <rect x="80" y="140" width="160" height="50" rx="8" fill="#2563EB"/>
           <rect x="100" y="95" width="140" height="50" rx="8" fill="#38BDF8" opacity=".85"/>
-          <rect x="120" y="50" width="120" height="50" rx="8" fill="#7C6CF6" opacity=".7"/>
+          <rect x="120" y="50" width="120" height="50" rx="8" fill="#2563EB" opacity=".7"/>
         </svg>
       </div>
       <div class="text">
@@ -692,7 +690,7 @@ footer a:hover { color:#fff; }
         <svg viewBox="0 0 320 240" fill="none">
           <circle cx="160" cy="120" r="55" stroke="#2563EB" stroke-width="10"/>
           <path d="M160 65 v-18 M160 175 v18 M105 120 h-18 M215 120 h18 M122 82 l-13-13 M198 82 l13-13 M122 158 l-13 13 M198 158 l13 13" stroke="#38BDF8" stroke-width="8" stroke-linecap="round"/>
-          <circle cx="160" cy="120" r="18" fill="#7C6CF6"/>
+          <circle cx="160" cy="120" r="18" fill="#2563EB"/>
         </svg>
       </div>
       <div class="text">
@@ -769,7 +767,7 @@ footer a:hover { color:#fff; }
   <div class="curve curve-bottom"><svg viewBox="0 0 1440 70" preserveAspectRatio="none"><path d="M0,0 C480,70 960,70 1440,0 L1440,70 L0,70 Z" fill="#f8fafc"/></svg></div>
 </section>
  
-<!-- ==================== COMPARISON (ENHANCED) ==================== -->
+<!-- ==================== COMPARISON (FIXED - Brief compliant) ==================== -->
 <section id="compare">
   <span class="mesh-blob" style="width:500px; height:500px; top:-150px; right:-100px; background:rgba(37,99,235,.08);"></span>
   <div class="container">
@@ -784,9 +782,9 @@ footer a:hover { color:#fff; }
         <div class="icon-wrap">📊</div>
         <h3>Traditional</h3>
         <div class="features">
-          <p><span class="cross">✕</span> Limited visibility</p>
-          <p><span class="cross">✕</span> Reactive only</p>
-          <p><span class="cross">✕</span> High ops cost</p>
+          <p><span class="cross">✕</span> Agents to manage</p>
+          <p><span class="cross">✕</span> SRE salary cost</p>
+          <p><span class="cross">✕</span> Alert fatigue</p>
         </div>
         <div class="footer-tag">⚠️ Outdated approach</div>
       </div>
@@ -798,9 +796,9 @@ footer a:hover { color:#fff; }
         <div class="icon-wrap">🤖</div>
         <h3>Opservo</h3>
         <div class="features">
-          <p style="color:#1e293b; font-weight:500;"><span class="check">✔</span> Full-stack AI insight</p>
-          <p style="color:#1e293b; font-weight:500;"><span class="check">✔</span> Auto‑remediation</p>
-          <p style="color:#1e293b; font-weight:500;"><span class="check">✔</span> Lower TCO</p>
+          <p style="color:#1e293b; font-weight:500;"><span class="check">✔</span> No agents to manage</p>
+          <p style="color:#1e293b; font-weight:500;"><span class="check">✔</span> No SRE salary</p>
+          <p style="color:#1e293b; font-weight:500;"><span class="check">✔</span> No alert fatigue</p>
         </div>
         <div class="footer-tag">🚀 AI-powered ops engineer</div>
         <div class="cta-btn">
@@ -873,7 +871,7 @@ footer a:hover { color:#fff; }
 <!-- ==================== BENEFITS ==================== -->
 <section id="benefits">
   <span class="mesh-blob" style="width:450px; height:450px; top:-140px; left:10%; background:rgba(37,99,235,.35);"></span>
-  <span class="mesh-blob" style="width:380px; height:380px; bottom:-160px; right:5%; background:rgba(124,108,246,.3);"></span>
+  <span class="mesh-blob" style="width:380px; height:380px; bottom:-160px; right:5%; background:rgba(56,189,248,.3);"></span>
   <div class="container">
     <h2 class="section-title">Benefits</h2>
     <div class="grid">
@@ -918,7 +916,7 @@ footer a:hover { color:#fff; }
     <div class="cards">
       <div class="card" data-fade>
         <h3>Starter</h3>
-        <p class="price">$199/mo</p>
+        <p class="price">Free</p>
         <ul>
           <li>Up to 100 servers</li>
           <li>Basic AI alerts</li>
@@ -957,7 +955,7 @@ footer a:hover { color:#fff; }
   <div class="container">
     <h2 data-fade>Ready to Elevate Your Infra Ops?</h2>
     <a href="#pricing" class="btn btn-primary" data-fade style="margin-right:.5rem;">Get Started Free</a>
-    <a href="#assistant" class="btn btn-ghost" data-fade>Book a Demo</a>
+    <a href="#showcase" class="btn btn-ghost" data-fade>See How It Works</a>
   </div>
 </section>
  
